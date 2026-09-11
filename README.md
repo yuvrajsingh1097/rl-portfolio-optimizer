@@ -10,7 +10,7 @@ agents/ppo_agent.py	PPO agent with actor-critic network, GAE advantage estimatio
 agents/sac_agent.py	SAC agent (off-policy alternative for comparison)
 train/train.py	Training loop with TensorBoard logging, checkpointing
 evaluate/evaluate.py	Walk-forward evaluation, benchmark comparison
-dashboard/app.py	Streamlit portfolio dashboard
+dashboard/app.py	Streamlit portfolio dashboardnn
 Environment
 State  : price features (returns, vol, momentum, RSI) × n_assets
          + current weights + drawdown + portfolio return
