@@ -9,7 +9,7 @@ env/trading_env.py	Custom Gym environment — state space, action space, reward 
 agents/ppo_agent.py	PPO agent with actor-critic network, GAE advantage estimation
 agents/sac_agent.py	SAC agent (off-policy alternative for comparison)
 train/train.py	Training loop with TensorBoard logging, checkpointing
-evaluate/evaluate.py	Walk-forward evaluation, benchmark comparison
+evaluate/evaluate.py	Walk-forward evaluation, benchmark comparisonn
 dashboard/app.py	Streamlit portfolio dashboardnn
 Environment
 State  : price features (returns, vol, momentum, RSI) × n_assets
