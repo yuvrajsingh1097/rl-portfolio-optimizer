@@ -13,7 +13,7 @@ evaluate/evaluate.py	Walk-forward evaluation, benchmark comparisonn
 dashboard/app.py	Streamlit portfolio dashboardnn
 Environment
 State  : price features (returns, vol, momentum, RSI) × n_assets
-         + current weights + drawdown + portfolio return
+         + current weights + drawdown + portfolio returnj
 Action : continuous portfolio weights ∈ [0,1]^n  (softmax normalised, sum=1)
 Reward : Sharpe ratio (rolling 21d) − drawdown penalty
 Episode: ends when data exhausted or max drawdown > 30%nn
